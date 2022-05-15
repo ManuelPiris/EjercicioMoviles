@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var moviles_1 = require("./moviles");
+var movil1 = new moviles_1.Mobile("Nokia", "3210", "Nokia", "128mb", "Negro", false, 1, 150);
+var movil2 = new moviles_1.Mobile("Iphone3G", "3G", "Apple", "8gb", "Negro", false, 1, 350);
+var movil3 = new moviles_1.Mobile("Samsung Galaxy 10", "Galaxy 10", "Samsung", "128gb", "Azul", true, 3, 800);
+movil1.Print();
+movil2.Print();
+movil3.Print();
+movil1.setCameraNum(4);
+movil1.set5G(true);
+movil1.Print();
